@@ -1,0 +1,16 @@
+.register__span{
+  color: #fff;
+  text-decoration: none;
+  padding-top: 17px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.register__span:hover{
+  opacity: 0.6;
+  transition: opacity 2s ease;
+}

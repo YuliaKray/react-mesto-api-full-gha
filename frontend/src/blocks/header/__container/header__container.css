@@ -1,0 +1,11 @@
+.header__container{
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 5px;
+  gap: 18px;
+}

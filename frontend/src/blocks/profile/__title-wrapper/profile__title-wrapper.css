@@ -1,0 +1,11 @@
+.profile__title-wrapper{
+  display: flex;
+  gap: 18px;
+}
+
+@media screen and (max-width: 950px) {
+  .profile__title-wrapper{
+     justify-content: center;
+     gap: 10px;
+  }  
+}
