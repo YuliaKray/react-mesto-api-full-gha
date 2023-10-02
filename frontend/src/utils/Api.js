@@ -2,7 +2,6 @@ class Api {
   constructor(config){
     this._url = config.url;
     this._headers = config.headers; 
-    // this._authorization = config.headers.authorization; //token
   }
 
   // Метод для одновременной загрузки инфы о пользователе и карточек
@@ -137,10 +136,6 @@ class Api {
 
 // Api
 export const api = new Api({
-  // url: "https://mesto.nomoreparties.co/v1/cohort-68",
-  url: "http://localhost:3000",
-  // headers: {
-  //   authorization: "46f36a85-551d-499f-bb88-7f282b6e36a1",
-
-  // }
+  url: "https://api.yuliakray.nomoredomainsrocks.ru",
+  // url: "http://localhost:3000",
 })
