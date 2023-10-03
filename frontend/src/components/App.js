@@ -147,7 +147,11 @@ function App() {
         console.log(err);
       });
 
-  }).catch((err) => console.log(err));
+  }).catch((err) => {
+    setIsInfoToolTipOpen(true);
+    setIsResGood(false);
+    console.log(err);
+  });
   }
 
   function checkToken() {
