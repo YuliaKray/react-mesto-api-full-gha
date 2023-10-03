@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 84.201.154.130
+IP 84.201.154.130
 
 Frontend https://yuliakray.nomoredomainsrocks.ru/
 
